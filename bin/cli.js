@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-require('@dataplug/dataplug-cli')
-  .fromFactory(require('../lib/factory'))
-  .argv;
+require('@dataplug/dataplug-cli').build()
+  .usingCollectionFactory(require('../lib/factory'))
+  .process()
