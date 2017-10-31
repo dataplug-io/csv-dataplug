@@ -35,8 +35,8 @@
   },
   "homepage": "https://github.com/dataplug-io/csv-dataplug#readme",
   "dependencies": {
-    "@dataplug/dataplug": "^0.13.0",
-    "@dataplug/dataplug-cli": "^0.11.1",
+    "@dataplug/dataplug": "^0.15.0",
+    "@dataplug/dataplug-cli": "^0.13.0",
     "@dataplug/dataplug-csv": "^0.2.0",
     "lodash": "^4.17.4"
   },
