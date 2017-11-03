@@ -4,7 +4,7 @@ require('chai')
 const dataplugTestsuite = require('@dataplug/dataplug-testsuite')
 const csvDataplug = require('../lib')
 
-describe('toggl-dataplug', () => {
+describe('csv-dataplug', () => {
   dataplugTestsuite
     .forCollectionFactory('csv', csvDataplug)
     .use()
