@@ -7,5 +7,5 @@ const csvDataplug = require('../lib')
 describe('csv-dataplug', () => {
   dataplugTestsuite
     .forCollectionFactory('csv', csvDataplug)
-    .use()
+    .execute()
 })
